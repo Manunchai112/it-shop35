@@ -15,9 +15,8 @@
                     @endif
 
                     <h2> <B>Name : </B> {{ Auth::user()->name }} </h2>
+                    <h2> <B>Username : </B> {{ Auth::user()->username }} </h2>
                     <h2> <B>Email : </B> {{ Auth::user()->email }} </h2>
-                    <h2> <B>Phone : </B> {{ Auth::user()->phone }} </h2>
-                    <h2> <B>Address : </B> {{ Auth::user()->address }} </h2>
                 </div>
             </div>
         </div>
